@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+/*modified*/
+body{
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.tag{
+    padding-bottom: 50px ;
+    font-size: 100px;
+    color: rgb(0, 0, 0);
+}
+.tag2{
+    text-align: left;
+    width: 50%;
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-weight: 700;
+
+    color: rgb(0, 0, 0);
+}
+.tag3{
+    text-align: left;
+    width: 50%;
+    padding-bottom: 15px;
+    font-size: 20px;
+
+    color: rgb(0, 0, 0);
+} 
+
+
+#img{
+    width: 90px;
+    height: 90px;
+    padding-bottom: 10px;
+}
+.btndiv{
+    align-items: center;
+    margin-top: 0;
+    margin-left: 39%;
+}
+.btn{
+    width: 90px;
+    height: 35px;
+    border-radius: 15px;
+    margin: 20px;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background-image: linear-gradient(19deg,#000000 0%,#000000 100%);
+
+
+}
+.btn33{
+    width: 66px;
+    height: 30px;
+    border-radius: 15px;
+    padding-left: 24px;
+    margin: 10px;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;color: rgb(7, 7, 7);
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background-image: linear-gradient(19deg,#ddcccc 0%,#d2c0c0 100%);
+}
+.btn5{
+    width: 95px;
+    height: 30px;
+    border-radius: 15px;
+    margin: 10px;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background-image: linear-gradient(19deg,#000000 0%,#000000 100%);
+
+
+}
+.btn11{
+    width: 140px;
+    height: 40px;
+    border-radius: 15px;
+    margin-left: 25%;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background-image: linear-gradient(19deg,#000000 0%,#000000 100%);
+}
+.no{
+    font-size: 28px;
+    margin-left: 15%;
+    font-weight: 700;
+}
+
+
+.tir{
+    color: #21d4fd;
+    font-size: 20px;
+    
+}
+
+.ppp{
+    color: rgb(0, 0, 0);
+    font-size: 3.5rem;
+}
+
