@@ -15,8 +15,6 @@ function shuffle() {
     let mgf = document.getElementById('scce').value || selectedValue;    
     document.getElementById("btn").style.visibility = ("hidden");
 
-    console.log(mgf)
-
     if (!mgf) {
         document.getElementById("scce").innerHTML = ('Please Select!');
         document.getElementById('score').innerHTML = 0;
