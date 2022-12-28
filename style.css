@@ -79,7 +79,7 @@ body{
     outline: none;
     background-image: linear-gradient(19deg,#ddcccc 0%,#d2c0c0 100%);
 }
-.btn5{
+/* .btn5{
     width: 95px;
     height: 30px;
     border-radius: 15px;
@@ -93,7 +93,7 @@ body{
     background-image: linear-gradient(19deg,#000000 0%,#000000 100%);
 
 
-}
+} */
 .btn11{
     width: 140px;
     height: 40px;

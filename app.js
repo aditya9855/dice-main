@@ -38,7 +38,7 @@ function guessNumber(){
     const img = document.getElementById("img");
     img.setAttribute("src", "dice-anim.gif");
     document.getElementById("btn1").style.visibility = ("hidden");
-    let mfg2 = document.getElementById("btn2").style.visibility = ('hidden');
+    // let mfg2 = document.getElementById("btn2").style.visibility = ('hidden');
 }
 
 document.getElementById("btn1").onclick = function replay(){
@@ -46,7 +46,7 @@ document.getElementById("btn1").onclick = function replay(){
     window.location.reload();
 }
 
-document.getElementById("btn2").onclick = function(){
+document.getElementById("cars").onchange = function(){
     
     let selectField = document.getElementById("cars");
     var selectedOption = selectField.options.selectedIndex;
