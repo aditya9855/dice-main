@@ -18,7 +18,7 @@ body{
 }
 .tag{
     padding-bottom: 50px ;
-    font-size: 100px;
+    font-size: 80px;
     color: rgb(0, 0, 0);
 }
 .tag2{
@@ -127,3 +127,8 @@ body{
     font-size: 3.5rem;
 }
 
+.date{
+    margin: 0;
+    padding: 0;
+
+}
