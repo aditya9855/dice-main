@@ -10,42 +10,45 @@
 </head>
 
 <body>
-  <div class="date" >
+  <!-- <div class="date" >
     Time : <span id="date"> </span>
-  </div>
+  </div> -->
 
   <!-- updaetd -->
-  <div class="main">
+  <div class="back">
+    <div class="main">
     
-    <h1 class="tag"> ROLL THE DICE </h1>
-    <p class="tag2" id="message1"> Score : <span id="score" > Null </span> </p>
-    <p class="tag3" id="score"> </p>
-    <p class="tag2" > selected variable : <span id="scce" ></span></p>
-    <img src="1.png" alt="" id="img">
-    <div>
-      <div id="p">
-        <h1>YOU HAVE TO SELECT ONE OPTION</h1>
-        <label for="cars" class="no">Choose a number:</label>
-        <select class="btn33" id="cars">
-          <option id="null" selected disabled value="please select">Please Select!</option>
-          <option value="1" onselect="1">1</option>
-          <option value="2" onselect="2">2</option>
-          <!--  -->
-          <option value="3" onselect="3">3</option>
-          <option value="4" onselect="4">4</option>
-          <option value="5" onselect="5">5</option>
-          <option value="6" onselect="6">6</option>
-        </select>
-        <!-- <button id="btn2" class="btn5" onclick="select()"> SELECT </button> -->
+      <h1 class="tag"> ROLL THE DICE </h1>
+      <p class="tag2" id="message1"> Score : <span id="score" > Null </span> </p>
+      <p class="tag3" id="score"> </p>
+      <p class="tag2" > selected variable : <span id="scce" ></span></p>
+      <img src="1.png" alt="" id="img">
+      <div>
+        <div id="p">
+          <h1 class="headg">YOU HAVE TO SELECT ONE OPTION</h1>
+          <label for="cars" class="no">Choose a number:</label>
+          <select class="btn33" id="cars">
+            <option id="null" selected disabled value="please select">Please Select!</option>
+            <option value="1" onselect="1">1</option>
+            <option value="2" onselect="2">2</option>
+            <!--  -->
+            <option value="3" onselect="3">3</option>
+            <option value="4" onselect="4">4</option>
+            <option value="5" onselect="5">5</option>
+            <option value="6" onselect="6">6</option>
+          </select>
+          <!-- <button id="btn2" class="btn5" onclick="select()"> SELECT </button> -->
+        </div>
+        <div class="btndiv">
+          <button id="btn" class="btn" onclick="guessNumber()"> PLAY </button>
+        </div>
       </div>
-      <div class="btndiv">
-        <button id="btn" class="btn" onclick="guessNumber()"> PLAY </button>
+      <div>
+        <p id="message8" class="ppp"> </p>
+        <button id="btn1" class="btn11" onclick="replay()"> RESTART </button>
       </div>
-    </div>
-    <div>
-      <p id="message8" class="ppp"> </p>
-      <button id="btn1" class="btn11" onclick="replay()"> RESTART </button>
-    </div>
+  </div>
+  
    
 
 
